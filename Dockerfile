@@ -7,4 +7,4 @@ RUN apk --no-cache --update add firefox dbus-x11 ttf-freefont mesa-dri-gallium m
 
 USER user
 
-ENTRYPOINT ["firefox"]
+ENTRYPOINT ["firefox", "--kiosk"]
